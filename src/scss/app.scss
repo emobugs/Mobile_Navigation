@@ -28,8 +28,11 @@ html {
   flex-flow: column;
 }
 
+.navbar-menu{
+  display: none;
+}
 
-@media screen and(max-width: 600px) and (min-width:0px){
+@media screen and (min-width:0px) and(max-width: 600px) {
 
   .navbar-burger{
     background-color: aqua;
