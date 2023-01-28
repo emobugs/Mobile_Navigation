@@ -29,11 +29,14 @@ html {
 }
 
 
-@media screen and(max-width: 600px){
+@media screen and(max-width: 600px) and (min-width:0px){
 
   .navbar-burger{
     background-color: aqua;
     width: 100px;
+  }
+  .navbar-menu{
+    display: none;
   }
   
 }
