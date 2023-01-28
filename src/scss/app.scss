@@ -27,3 +27,32 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+
+@media screen and(max-width: 600px){
+
+  .navbar-burger{
+    background-color: aqua;
+    width: 100px;
+  }
+  
+}
+
+@media screen and(min-width: 600px){
+  .navbar-menu{
+    background-color: aqua;
+    font-size: 1.4rem;
+  }
+  .navbar-menu ul{
+    display:flex;
+    flex-direction:row;
+  }
+  .navbar-menu ul li{
+    display: inline;
+  }
+  
+  .navbar-burger{
+    display: none;
+  }
+  
+}
