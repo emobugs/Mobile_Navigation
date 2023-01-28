@@ -32,7 +32,7 @@ html {
   display: none;
 }
 
-@media screen and (min-width:0px) and(max-width: 600px) {
+@media all and (min-width:0px) and(max-width: 600px) {
 
   .navbar-burger{
     background-color: aqua;
@@ -44,7 +44,7 @@ html {
   
 }
 
-@media screen and(min-width: 601px) {
+@media all and(min-width: 601px) {
   .navbar-menu{
     display: flex;
     background-color: rgb(99, 171, 22);
