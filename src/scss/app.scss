@@ -38,9 +38,10 @@ html {
   
 }
 
-@media screen and(min-width: 600px){
+@media screen and(min-width: 600px) {
   .navbar-menu{
-    background-color: aqua;
+    display: flex;
+    background-color: rgb(99, 171, 22);
     font-size: 1.4rem;
   }
   .navbar-menu ul{
